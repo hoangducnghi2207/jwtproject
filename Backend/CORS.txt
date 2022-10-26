@@ -1,0 +1,2 @@
+L?i CORS:Policy giúp website này không g?i du?c sang website khác
+Fix CORS: https://stackoverflow.com/questions/18310394/no-access-control-allow-origin-node-apache-port-issue/18311469#18311469
