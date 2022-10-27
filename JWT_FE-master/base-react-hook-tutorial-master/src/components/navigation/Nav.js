@@ -70,7 +70,7 @@ const NavHeader = (props) => {
                   <NavLink to="/project" exact className="nav-link">Project</NavLink>
                   <NavLink to="/role" exact className="nav-link">Role</NavLink>
                   <NavLink to="/group-role" exact className="nav-link">Group Role</NavLink>
-                  <NavLink to="/about" exact className="nav-link">About</NavLink>
+                  {/* <NavLink to="/about" exact className="nav-link">About</NavLink> */}
 
                   {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>

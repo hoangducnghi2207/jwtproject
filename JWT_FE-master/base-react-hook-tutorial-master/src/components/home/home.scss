@@ -1,0 +1,14 @@
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+
+.homepage-container {
+    background-image: url(../home/homepage2.jpg);
+    height             : 100vh;
+    background-position: center;
+    background-repeat  : no-repeat;
+    background-size    : cover;
+}

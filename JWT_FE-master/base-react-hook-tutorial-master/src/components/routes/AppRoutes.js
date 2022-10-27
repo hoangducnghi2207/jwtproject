@@ -10,26 +10,18 @@ import {
 } from "react-router-dom";
 import Role from "../Role/Role";
 import GroupRole from "../groupRole/GroupRole";
+import Home from "../home/home";
 const AppRoutes = (props) => {
-    const Project=()=>{
-        return(
+    const Project = () => {
+        return (
             <div>project</div>
         )
-         
-        
+
+
     }
     return (
         <>
             <Switch>
-                <Route path="/news">
-                    news
-                </Route>
-                <Route path="/about">
-                    about
-                </Route>
-                <Route path="/contact">
-                    contact
-                </Route>
                 <Route path="/login">
                     <Login />
                 </Route>
@@ -39,14 +31,13 @@ const AppRoutes = (props) => {
                 {/* <Route path="/user">
                     <User />
                 </Route> */}
-               <PrivateRoute path="/user" component={User} />
-               <PrivateRoute path="/project" component={Project} />
-               <PrivateRoute path="/role" component={Role} />
-               <PrivateRoute path="/group-role" component={GroupRole} />
+                <PrivateRoute path="/user" component={User} />
+                <PrivateRoute path="/project" component={Project} />
+                <PrivateRoute path="/role" component={Role} />
+                <PrivateRoute path="/group-role" component={GroupRole} />
+                <Route path="/" component={Home}/>
 
-                <Route path="/" exact>
-                    
-                </Route>
+               
                 <Route path="*">
                     404 Not Found
                 </Route>
